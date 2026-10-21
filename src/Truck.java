@@ -5,8 +5,8 @@ public class Truck extends Vehicle {
 
     }
 
-    public String describe(){
-        return "TEST";
+    public String Wheels(){
+        return "4";
 
     }
 }
