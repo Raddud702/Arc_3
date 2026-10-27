@@ -1,12 +1,13 @@
 public class Truck extends Vehicle {
     private double cargoTons;
     public Truck(String make, String model, int topSpeed, double cargoTons) {
-
+        super(make, topSpeed);
+        this.cargoTons = cargoTons;
 
     }
-
+    @Override
     public String Wheels(){
-        return "4";
+        return make() + "4";
 
     }
 }

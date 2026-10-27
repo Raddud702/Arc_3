@@ -1,11 +1,12 @@
 public class Car extends Vehicle{
     private int compasity;
     public Car(String make, String model, int topSpeed, int compasity) {
-
+        super(make, topSpeed);
+        this.compasity = compasity;
 
     }
-
-    public String Wheels(){
-        return "4";
+    @Override
+    public String Wheels() {
+        return make() + "4";
     }
 }
