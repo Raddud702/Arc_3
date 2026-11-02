@@ -1,4 +1,4 @@
-public class Car extends Vehicle implements Purchasable{
+public class Car extends Vehicle{
     private int compasity;
     public Car(String make, String model, int topSpeed, int compasity) {
         super(topSpeed, make);
@@ -7,11 +7,6 @@ public class Car extends Vehicle implements Purchasable{
     }
     @Override
     public String Wheels() {
-        return getMake() + " has 4 wheels.";
+        return getMake() + " has 6 Wheels";
     }
-    @Override
-    public void purchase(){
-        System.out.println(getMake() + " is purchasable.");
-    }
-
 }

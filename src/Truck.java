@@ -1,4 +1,4 @@
-public class Truck extends Vehicle implements Purchasable {
+public class Truck extends Vehicle {
     private double cargoTons;
     public Truck(String make, String model, int topSpeed, double cargoTons) {
         super(topSpeed, make);
@@ -7,11 +7,7 @@ public class Truck extends Vehicle implements Purchasable {
     }
     @Override
     public String Wheels(){
-        return getMake() + " has 6 wheels.";
+        return getMake() + " has 4 Wheels";
 
-    }
-    @Override
-    public void purchase() {
-        System.out.println(getMake() + " is purchasable.");
     }
 }
