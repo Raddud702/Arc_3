@@ -2,7 +2,7 @@ import java.util.ArrayList;
 public class Main {
 
     public static void main(String[] args) {
-
+        //updating so we push whole project to main.
         ArrayList<Vehicle> garage = new ArrayList<>();
         garage.add(new Truck("Ford", "F-150", 125, 1500));
         garage.add(new Car("Toyota", "Camery", 150, 5));
