@@ -5,7 +5,7 @@ public class Main {
         //updating so we push whole project to main.
         ArrayList<Vehicle> garage = new ArrayList<>();
         garage.add(new Truck("Ford", "F-150", 125, 1500));
-        garage.add(new Car("Toyota", "Camery", 150, 5));
+        garage.add(new Car("Toyota", "Camry", 150, 5));
         garage.add(new Truck("Kenworth", "W900", 80, 25000));
 
         for (Vehicle c : garage) {
